@@ -1,0 +1,11 @@
+#circle {
+  left: 0;
+  top: 0;
+}
+.win-display {
+  display: none;
+}
+.win-display img{
+  border: solid blue;
+  position: center;
+}
