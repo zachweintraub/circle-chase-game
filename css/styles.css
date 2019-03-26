@@ -9,3 +9,14 @@
   border: solid blue;
   position: center;
 }
+.easy-size {
+  height: 400px;
+}
+
+.medium-size {
+  height: auto;
+}
+
+.hard-size {
+  height: 100px;
+}

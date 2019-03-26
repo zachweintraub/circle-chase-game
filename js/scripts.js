@@ -14,5 +14,18 @@ $('#reset').click(function(){
   $('#circle').show();
   $('#circle').offset({top: 100, left: 0});
 });
+$('#easy').click(function(){
+  console.log('clicking works');
+  $('#circle').removeClass();
+  $('#circle').addClass("easy-size");
+});
+$('#medium').click(function(){
+  $('#circle').removeClass();
+  $('#circle').addClass("medium-size");
+});
+$('#hard').click(function(){
+  $('#circle').removeClass();
+  $('#circle').addClass("hard-size");
+});
 
 });
